@@ -142,7 +142,7 @@ Migration is completed by the {{site.data.keyword.cloud_notm}} Network Engineeri
 {: #vpc-limitations}
 
 * Only your private (or "backend" in old documentation) networks will be connected to your account's private implicit router.
-* Only subnets allocated to your classic infrastructure with IBM Cloud provisioning systems are connected to the classic side of your private implicit router. The routing function of the implicit router does not work between subnets on classic VLANs.
+* Only subnets allocated to your classic infrastructure with IBM Cloud provisioning systems are connected to the classic side of your private implicit router.
 * Only one VPC per region, per account can be enabled for Classic Access.
 
 Depending on the OS you've installed on your classic VSIs or bare metal servers, your configuration procedure will vary. For more information, see [About public virtual servers](/docs/vsi?topic=virtual-servers-about-public-virtual-servers).
